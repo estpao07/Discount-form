@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>pseudocodigo examen</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+     <form>
+        <h1>Apliquemos un Descuento</h1>
+    
+        <fieldset>
+            <section>
+                <div class="Nom"> 
+                    <label>Ingrese su Nombre:</label>
+                    <input type="text" id="nombre" placeholder="">          
+                </div> <br>
+
+                <div class="Old">
+                    <label> Ingrese su Edad: </label>
+                    <input type="text"  id="Age" placeholder="">
+                </div> <br>
+
+                <div class="monto">
+                    <label>Ingrese el monto a pagar:</label>
+                    <input type="text" id="Amount" placeholder="">
+                </div> <br>
+
+                <div class="tipoC">
+                    <label> Indique que tipo de Usuario eres (ejemplo: Estudiante): </label>
+                    <input type="text" id="TC" placeholder="">
+                </div>
+            </section>
+
+             <div class="Button"> <br>
+          <button type="button" onclick="applydiscount()">Enviar</button>
+
+        </div>
+
+        </fieldset>
+
+     </form>
+
+     <H2 id="Message"></H2>
+   
+
+<script src="Logica.js"></script>
+
+</body>
+</html>

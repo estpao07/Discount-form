@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pago Luz 2.11</title>
+</head>
+<body>
+    <h1>Monto a pagar por consumo eléctrico</h1>
+    <form>
+        <fieldset>
+            <section>
+                <label for="ConsumoLuz">Ingrese su consumo en KW</label>
+                <input type="text" id="ConsumoLuz" placeholder=""> 
+            </section>
+            <button type="button" onclick="calculoLuz()">Aplicar</button>
+        </fieldset>
+    </form>
+
+    <h2 id="messageLuz"></h2>
+
+    <script src="Logicaluz.js"></script>
+        
+</body>
+</html>
